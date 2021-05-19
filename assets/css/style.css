@@ -1,0 +1,298 @@
+/* --------------------------- */
+/* Temaplate Name : School college template 1*/
+/* Designed by: Razu Ahmed Joy*/
+/* Website: https://prowebpark.com */
+/* Version: 1.0.0 */
+/* --------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.6rem;
+}
+/* Universal CSS */
+a {
+  text-decoration: none;
+  color: #000;
+}
+.see-more-link {
+  color: #158dfd;
+  font-weight: bold;
+}
+.row {
+  padding: 2rem 0;
+}
+
+.title-bar {
+  padding: 1rem;
+}
+.bg-blue {
+  background: linear-gradient(-90deg, #4d86ab, #162c52);
+  color: #fff;
+}
+.bg-red {
+  background: linear-gradient(-90deg, #e04242, #6e1c11);
+
+  color: #fff;
+}
+.bg-light {
+  color: #000;
+
+  background: rgb(234 234 234);
+}
+.bg-dark {
+  background: #083b55 !important;
+}
+.bg-dark-foot {
+  background: #031d2b !important;
+}
+.bg-info {
+  color: #fff;
+  background: linear-gradient(-90deg, #42d5e0, #0d4e5a);
+}
+.bg-green {
+  background: linear-gradient(-90deg, #159911, #064611);
+
+  padding: 1rem;
+  color: #fff;
+}
+
+.info-menu-icons {
+  font-size: 5rem;
+  float: left;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  margin-top: 5rem;
+}
+.list-group li {
+  font-size: 1.2rem;
+}
+.list-group li i {
+  padding: 0.5rem;
+}
+/* HEADER AREA */
+
+.header {
+  background-color: rgb(23, 93, 199);
+  padding: 1rem;
+  padding-bottom: 0;
+  position: relative;
+}
+.header-content {
+  padding: 1rem;
+}
+.left-panel {
+  width: 20%;
+  float: left;
+  text-align: center;
+
+  height: auto;
+}
+.right-panel {
+  width: 20%;
+  text-align: center;
+  height: auto;
+  float: right;
+}
+
+.brand-img {
+  width: 90px;
+  height: auto;
+  margin-top: 10px;
+}
+.brand-panel {
+  width: 60%;
+  float: left;
+  text-align: center;
+  color: #fff;
+  padding: 2px;
+}
+
+.brand-desc {
+  font-size: 1.6rem;
+}
+
+/* REsponsive css for Header */
+@media (max-width: 560px) {
+  .brand-heading {
+    font-size: 2rem;
+  }
+  .brand-desc {
+    font-size: 1rem;
+  }
+}
+
+/* NAVBAR AREA */
+
+.main-menu {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.nav-item {
+  border-right: solid 0.1rem #fff;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.dropdown-item {
+  font-size: 1.6rem;
+}
+
+.slider-area {
+  max-height: 60vh !important;
+}
+.carousel-item img {
+  width: 100% !important;
+  height: 300px !important;
+}
+
+.sliding-notices {
+  margin-right: 1rem;
+}
+
+/* Main Body Area */
+
+.description {
+  padding: 1rem 0;
+}
+.description img {
+  width: 40%;
+  height: auto;
+  margin-right: 1rem;
+  float: left;
+}
+.desc-text {
+  text-align: justify;
+}
+.info-box ul li {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+/* Sidebar CSS */
+.sidebar {
+  margin: 1rem 0;
+}
+.sidebar-top > ul > li {
+  background-color: rgb(57, 211, 231);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sidebar-top > ul > li:hover {
+  background-color: rgb(51, 168, 184);
+  font-weight: bold;
+}
+
+.sidebar-top > ul > li a:hover {
+  color: #000;
+}
+
+.notice-board {
+  background-color: rgb(238, 238, 238);
+}
+
+.notice-board > marquee > ul > li {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  color: red;
+}
+
+.notice-board > marquee > ul > li > a {
+  color: red;
+}
+
+/* Footer Area */
+
+.footer {
+  background: #083b55;
+}
+.footer col-md-4,
+.footer col-sm-4,
+.footer col-lg-4 {
+  padding: 1rem;
+}
+.footer .footer-logo {
+  width: 50%;
+  height: auto;
+  padding: 1rem;
+}
+.footer-head {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer-address {
+  color: #fff;
+}
+.footer-address a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.foot-title {
+  color: #fff;
+  padding: 1rem;
+}
+
+.foot-list .list-item {
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.footer-credit {
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.footer-credit a {
+  font-size: 2rem;
+}
+.footer-social {
+  text-align: center;
+  color: #fff;
+}
+.footer-social a {
+  margin: 0.5rem;
+}
+.footer-social a i {
+  color: rgb(6, 68, 119);
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+}
+#goToTopBtn {
+  position: fixed;
+  background: rgba(30, 74, 219, 0.623);
+  bottom: 1.6rem;
+  right: 3.2rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: #ffffff;
+  display: none;
+  opacity: 0.4;
+  transition: all 0.4s ease;
+}
+#goToTopBtn:hover {
+  background: rgba(19, 53, 165, 0.678);
+  opacity: 0.8;
+}
