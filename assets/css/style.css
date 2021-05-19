@@ -296,3 +296,10 @@ a {
   background: rgba(19, 53, 165, 0.678);
   opacity: 0.8;
 }
+
+/* Other Pages */
+.breadcrumb {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
