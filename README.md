@@ -3,4 +3,4 @@ This is a simple academy or school template built with raw HTML, CSS and JAVASCR
 
 ## wanna check live demo? 
 ### check the link
-<a href="#">`Live demo`</a>
+<a href="https://mytemplate.bdhostingworld.com/school-themebzr/#">`Live demo`</a>
